@@ -1,0 +1,264 @@
+*{ 
+    margin: 0%;
+}
+ 
+.head0,.para0{ 
+    color: black;
+}
+.inbox{ text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.inbox1{ 
+    /* padding-top: 25%; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+.content{ text-align: center;}
+
+.line1{
+    background-color: white;
+    height: 2px;
+    min-width: 80%;
+    margin-bottom: 5px;
+
+}
+
+.sec{
+    background-color: #5f9dd8;
+}
+.Appoinment{ 
+    border-color: #5f9dd8;
+    background-color: white;
+    color: #5f9dd8;
+    
+
+}
+
+.para{ margin-top: 1px;
+        /* padding-left: 60px; */
+}
+
+  @media (max-width: 300) {
+      .para {
+        grid-template-columns: repeat(4, 1fr); /* 4 per row */
+      }
+    }
+
+.head{margin: 0%;
+padding: 0%; 
+padding-left: 20px;
+}
+
+.inbox2{
+    text-align: center;
+    padding: 40px;
+}
+
+.suit{ 
+    border-color: #5f9dd8;
+    background-color: white;
+    color: #5f9dd8;
+    
+}
+
+.sec2{ background-color: #5f9dd8;
+        /* height: 300px; */
+        display: flex;
+        justify-content: center; 
+        padding-top: 20px;
+        
+
+}
+
+.para{ 
+   color: white;
+ 
+}
+
+
+.icons{
+   
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    /* margin-top: 20px; */
+
+}
+.line{
+    background-color: white;
+    height: 2px;
+    width: 200px;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+}
+.inbox3{
+    text-align: center;
+}
+.head{ 
+    font-size:x-large;
+    color: white;
+    /* text-align: center; */
+}
+
+.sec3{ 
+    background-color: rgb(109, 108, 108);
+    /* height: 250px; */
+    padding-bottom: 50px;
+}
+
+.align{ 
+    color: white;
+}
+
+.Appoinment2{ 
+    border-color: rgb(109, 108, 108);
+    background-color: white;
+    color: #5f9dd8;}
+
+.inbox5{ 
+    /* background-color: blueviolet; */
+    height: 200px;
+    width: 200px;
+    margin: auto;
+   
+
+}
+.sec4{
+    /* padding-top: 50px; */
+}
+
+
+.picc.row>* {
+   
+    padding:5px !important;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 25px solid  #5f9dd8;
+    margin: auto;
+}
+#sec4{
+    padding: 50px 0;
+}
+
+.inbox5{
+    text-align: center;
+    height: 200px;
+    /* background-color: aqua; */
+    margin-top: 5px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.sec5{ 
+    background-color: rgb(109, 108, 108);
+    /* height: 250px; */
+    padding-bottom: 50px;
+    padding-top: 30px;
+ 
+}
+
+.sec6{ 
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 200px;  
+    padding-top: 150px;
+    margin-top: 200px;
+    
+}
+
+
+
+
+
+.white{ 
+    color: white;
+}
+
+.boss{ 
+    color: rgb(0, 0, 0) ;
+    margin-left: 10px;
+}
+.inbox6{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center !important;
+  text-align: center;
+}
+
+.image-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* Desktop: 5 per row */
+      gap: 15px;
+    }
+
+    /* Large screens (≤1200px) */
+    @media (max-width: 1200px) {
+      .image-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 per row */
+      }
+    }
+
+    /* Medium screens (≤992px) */
+    @media (max-width: 992px) {
+      .image-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 per row */
+      }
+    }
+
+    /* Small screens (≤768px) */
+    @media (max-width: 768px) {
+      .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row */
+      }
+    }
+
+    /* Extra small screens (≤400px) */
+    @media (max-width: 400px) {
+      .image-grid {
+        grid-template-columns: 1fr; /* 1 per row */
+      }
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    /* Optional: ensure sections have proper spacing */
+    /* section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    } */
+
+    /* Text centering for small screens */
+    @media (max-width: 576px) {
+      .sec .inbox1,
+      .sec2 .inbox3,
+      .sec3,
+      .sec5,
+      .sec6 {
+        text-align: center;
+      }
+    }
+
+
